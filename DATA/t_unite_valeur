@@ -1,0 +1,1 @@
+create table Unite_Valeur(id_uv int auto_increment, nom_uv varchar(50)not null,constraint pk_uv primary key (id_uv));

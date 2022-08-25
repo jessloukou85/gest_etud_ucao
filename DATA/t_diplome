@@ -1,0 +1,1 @@
+create table Diplome(id_diplome int auto_increment, nom_diplome varchar(50)not null,constraint pk_diplome primary key (id_diplome));

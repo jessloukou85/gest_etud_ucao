@@ -1,0 +1,1 @@
+create table session(num_session int auto_increment, nom_session varchar(20)not null,dat_debut varchar(30) not null,dat_fin varchar(30)not null, duree varchar(20)not null,id_uv int, constraint pk_session primary key (num_session),constraint fk_session_uv foreign key (id_uv) references Unite_Valeur(id_uv) on delete set null on update cascade); 

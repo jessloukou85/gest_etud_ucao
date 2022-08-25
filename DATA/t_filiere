@@ -1,0 +1,1 @@
+create table filiere(code_filiere int auto_increment, libele_filiere varchar(50)not null,student_id int ,constraint pk_filiere primary key (code_filiere),constraint fk_filiere_etudiant foreign key(student_id) references etudiant(student_id) on delete set null on update cascade);

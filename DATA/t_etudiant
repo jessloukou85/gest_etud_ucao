@@ -1,0 +1,1 @@
+create table etudiant(student_id int auto_increment, last_name varchar(20)not null, first_name varchar(20)not null,date_of_birth varchar(20)not null,place_of_birth varchar(20)not null,nationality varchar(20)not null,mail varchar(30)not null,country varchar(20)not null,constraint pk_etudiant primary key (student_id));

@@ -1,0 +1,1 @@
+create table Annee_Academique(ref_an int auto_increment, dat_debut varchar(20) not null ,dat_fin varchar(20),student_id int,constraint pk_Annee_Aca primary key (ref_an),constraint fk_Annee_Aca_etudiant foreign key (student_id) references etudiant(student_id) on delete set null on update cascade);
